@@ -54,7 +54,7 @@ steps:
     projects: '**/*.Tests.csproj'  
 
 - task: DotNetCoreCLI@2
-  displayName: 'Publish The project - $(buildConfiguration)'
+  displayName: 'PublishTheProject - $(buildConfiguration)'
   inputs:
     command: 'publish'
     projects: '**/*.csproj'
